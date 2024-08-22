@@ -1,0 +1,15 @@
+// BASE
+@import './base/vars';
+@import "./base/mixins";
+@import './base/return';
+@import "./base/base";
+
+// BLOCKS
+@import './blocks/menu/menu';
+@import "./blocks/start/start";
+@import './blocks/start/body';
+@import './blocks/footer/footer';
+@import './blocks/scheme/scheme';
+@import './blocks/scheme/cards';
+@import './blocks/scheme/slider';
+//continue....

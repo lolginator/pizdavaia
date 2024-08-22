@@ -1,0 +1,22 @@
+.start{
+    background-color: $bg-color;
+    height: 911px;
+}
+
+.start__menu{
+    padding-top: 30px;
+ 
+}
+
+
+.start__menu::after{
+    @include decoration;
+    right: 40px;
+    top: 55px;
+}
+
+.start__menu::before{
+    @include decoration;
+    left: 40px;
+    top: 55px;
+}

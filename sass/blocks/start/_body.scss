@@ -1,0 +1,46 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.body__img{
+    img{
+        width: 550px;
+        height: 550px;
+    }
+}
+
+
+
+.body__main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+
+
+    .body__title{
+        font-size: 80px;
+        font-weight: 700;
+        width: 500px;
+    }
+
+    .body__text{
+        width: 500px;
+    }
+
+
+
+    .body__btn{
+        font-size: 700;
+        border-radius: 50px;
+        background-color: $btn-color;
+        width: 100px;
+        margin: 0 auto;
+        padding: 15px;  
+    }
+}

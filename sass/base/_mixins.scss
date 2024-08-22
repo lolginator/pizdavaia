@@ -1,0 +1,14 @@
+@mixin decoration{
+    background-color: $nav-color;
+    border-radius: 50px;
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    content: " ";
+}
+
+@mixin btn{
+    background-color: $btn-color;
+    padding: 15px;
+    border-radius: 50px;
+}

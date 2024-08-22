@@ -1,0 +1,76 @@
+.cards{
+    
+}
+
+
+.card-1{
+    display: block;
+    text-align: center;
+    height: 645px;
+    img{
+        width: 250px;
+        height: 400px;
+    }
+
+
+    ul{
+        width: 300px;
+
+
+        li{
+            margin-top: 15px;
+            
+
+            a{
+                font-weight: 700;
+                color: rgb(59, 59, 211);
+            }
+        }
+    }
+}
+
+
+.card-2{
+    text-align: center;
+    height: 645px;
+    display: none;
+    padding-top: 40px;
+
+
+    img{
+        width: 225px;
+        height: 400px;
+    }
+
+ 
+    ul{
+        width: 300px;
+
+
+        li{
+            margin-top: 15px;
+        }
+    }
+}
+
+
+
+.card-3{
+    text-align: center;
+    height: 645px;
+    display: none;
+    
+    img{
+        width: 575px;
+        height: 400px;
+    }
+
+    ul{
+        width: 575px;
+
+
+        li{
+            margin-top: 15px;
+        }
+    }
+}
